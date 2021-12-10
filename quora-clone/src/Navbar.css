@@ -1,0 +1,112 @@
+.navbar {
+	display: flex; /*양옆으로 이동 */
+	justify-content: space-between;
+	align-items: center;
+	padding: 1px;
+	background-color: white;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.qHeader_logo > img {
+	margin-right: 20px;
+	height: 70px;
+	object-fit: contain;
+	/*부모 컨테이너(class)에 맞게 크기를 비율 값으로 변경해주는 속성*/
+	margin-left: 15px;
+}
+
+
+.qHeader_icons {
+	display: flex;
+	margin-right: 20px;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.qHeader_icon > .MuiSvgIcon-root {
+	/*qHeader_icon안에 사용되는 material들의 기본적인 속성을 정해주는 것 */
+	color: yellowgreen;
+	font-size: xx-large;
+	cursor: pointer;
+	padding : 5px 10px;
+} 
+
+.qHeader_icon > .MuiSvgIcon-root:hover {
+	/*hover 이벤트가 발생했을 때 어떻게 값이 변경될 지를 나타냄
+	  마우스로 해당 아이콘에 갖다 대면 발생함*/
+	color: black;
+	border-radius: 10px;
+	background-color: yellowgreen;
+	transform: scale(1.1);
+} 
+
+.qHeader_input {
+	display: flex;
+	align-items: center;
+	width: 400px;
+	height: 100%;
+	border: 1px solid lightgreen;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+
+.qHeader_input > input {
+	display: transparent;
+	outline: none;
+	width: 400px;
+	border: none;
+	color: rgb(49,49,49);
+	
+}
+
+.qHeader_input > .MuiSvgIcon-root {
+	background-color: yellowgreen;
+}
+
+.qHeader_Ren {
+	display: flex;
+	align-items: center;
+	
+}
+
+
+.qHeader_Ren > .qHeader_avatar {
+	cursor:pointer;
+	
+}
+
+.qHeader_Ren > .MuiSvgIcon-root {
+	font-size: xx-large;
+	color: yellowgreen;
+	margin-left: 30px;
+	cursor:pointer;
+}
+
+.qHeader_Ren > .MuiSvgIcon-root:hover {
+	color: black;
+}
+
+.qHeader_Ren > .MuiButton-root {
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	cursor: pointer;
+	text-transform: inherit;
+	background-color:yellowgreen;
+	border-radius: 20px;
+	
+	
+}
+
+.qHeader_Ren > .MuiButton-root:hover {
+	color: yellowgreen;
+	background-color: black;
+	
+	
+}

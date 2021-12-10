@@ -8,6 +8,7 @@ import {
     NotificationsOutlined,
     PeopleAltOutlined, Search
 } from "@material-ui/icons";
+import {Avatar, Button, Input} from "@material-ui/core";
 
 function Navbar() {
 	return(
@@ -34,6 +35,20 @@ function Navbar() {
 					<NotificationsOutlined/>
 				</div>
 			</div>
+			
+			<div className="qHeader_input">
+				<input type="text" placeholder="검색하기"/>
+				<Search/>
+			</div>
+			
+			<div className="qHeader_Ren">
+				<div className="qHeader_avatar">
+					<Avatar />
+				</div>
+				<Language/>
+				<Button>질문하기</Button>
+			</div>
+			
 			
 		</div>
 	)

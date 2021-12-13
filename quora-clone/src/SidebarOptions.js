@@ -3,8 +3,9 @@ import './SidebarOptions.css';
 
 function SidebarOptions(props) {
 	return (
-		<div className = "sidebaroptions">
-			
+		<div className = "sidebarOptions">
+    <h1> 사이드바 옵션</h1>
+		
 		</div>
 	);
 }

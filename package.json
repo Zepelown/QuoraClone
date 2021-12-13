@@ -1,0 +1,28 @@
+{
+  "name": "QuoraClone",
+  "version": "1.0.0",
+  "description": "[참고강좌](https://www.youtube.com/watch?v=j3-4QTcAcNk) 54:26",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zepelown/QuoraClone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zepelown/QuoraClone/issues"
+  },
+  "homepage": "https://github.com/Zepelown/QuoraClone#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@reduxjs/toolkit": "^1.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6"
+  }
+}

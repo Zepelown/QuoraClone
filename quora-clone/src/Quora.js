@@ -2,6 +2,7 @@ import React from 'react';
 import './Quora.css'
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
+import Feed from './Feed';
 
 function Quora() {
 	return (
@@ -9,6 +10,7 @@ function Quora() {
 			<Navbar/>
 			<div className="quora_content">
 				<Sidebar/>
+        <Feed/>
 			</div>
 			
 		</div>
